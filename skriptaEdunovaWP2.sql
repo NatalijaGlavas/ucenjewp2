@@ -1,4 +1,3 @@
-
 --create database edunovawp2;
 
 --use edunovawp2;
@@ -48,6 +47,8 @@
 --);
 
 
+--čšćđž   ČŠĆĐŽ
+--vanski klljučevi
 --alter table grupe add foreign key (smjer) references smjerovi(sifra);
 --alter table grupe add foreign key (predavac) references predavaci(sifra);
 --alter table clanovi add foreign key (grupa) references grupe(sifra);
