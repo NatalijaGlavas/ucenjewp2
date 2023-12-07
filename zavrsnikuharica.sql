@@ -43,9 +43,9 @@ insert into autori(ime,prezime,email,mjesto,drzava)
 values
 
 
-('Natalija','Glavaö','natalija-glavas@hotmail.com','Osijek','Hrvatska'),
+('Natalija','Glava≈°','natalija-glavas@hotmail.com','Osijek','Hrvatska'),
 
-('Jelena','égela','jelena25@gmail.com','?akovo','Hrvatska'),
+('Jelena','≈Ωgela','jelena25@gmail.com','?akovo','Hrvatska'),
 
 ('Angelika','Beketari?','angelikab15@gmaul.com','Dubrovnik','Hrvatska'),
 
@@ -56,27 +56,27 @@ values
 
 insert into recepti(naziv,autor,opis) values
 
-('Pala?inke',1,'pala?inke s dûemom'),
+('Palaƒçinke',1,'pala?inke s d≈æemom'),
 ('Tiramisu',2,'klasi?ni talijanski desert s kavom i marscapone sirom'),
 ('Pizza Margherita',3,'klasi?na talijanska pizza s raj?icom, mocarela sirom i bosiljkom'),
 ('Pasta Carbonara',1,'klasi?na talijanska tjestenina sa slaninom,jajima,parmezanom i crnim paprom'),
-('Buhtle',1,'buhtle s pekmezom od öljiva podravka'),
+('Buhtle',1,'buhtle s pekmezom od ≈°ljiva podravka'),
 ('Bolonjez',1,'umak s mljevenim mesom'),
 ('Gr?ka salata',3,'salata s povr?em i feta sirom'),
 ('Cezar salata',1,'salata s povr?em i pile?im prsima'),
 ('Poga?ice s ?varcima',4,'poga?ice s mljevenim ?varcima'),
-('Integralni krekeri',5,'krekeri sa svjeûim sirom'),
-('Sinjski uötipci',5,'prûeni uötipci na ulju s dodatkom rakije'),
-('Poga?ice sa sirom',4,'poga?ice sa svjeûim sirom'),
+('Integralni krekeri',5,'krekeri sa svje≈æim sirom'),
+('Sinjski u≈°tipci',5,'pr≈æeni u≈°tipci na ulju s dodatkom rakije'),
+('Poga?ice sa sirom',4,'poga?ice sa svje≈æim sirom'),
 ('Kiflice',1,'slane kiflice bez punjenja'),
-('Boûi?ni vinski kuglof',3,'kuglof s vinom i kakaom'),
+('Bo≈æi?ni vinski kuglof',3,'kuglof s vinom i kakaom'),
 ('Kola?i? od roga?a',5,'keksi od roga?a s dodatkom meda'),
 ('?okoladni kola?i?i',2,'?okoladni kola?i?i s dodatkom oraha i nasjeckanom ?okoladom'),
 ('Rolada s kavom',3,'biskvit s kavom i ?okoladnim vrhnje'),
 ('Krpice sa zeljm',1,'tjestenina s pirjanim zaljem'),
 ('Zape?eni grah',3,'bijeli grah skobasicom iz pe?nice'),
 ('Vatrena krilca',4,'pe?ena pile?a krilca iz pe?nice'),
-('Sarma',5,'mljeveno mjeöano meso umotano u kiseli kupus');
+('Sarma',5,'mljeveno mje≈°ano meso umotano u kiseli kupus');
 
 
 
