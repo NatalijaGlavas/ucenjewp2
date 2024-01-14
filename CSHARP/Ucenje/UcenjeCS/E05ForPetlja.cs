@@ -59,7 +59,7 @@
             int manji = ukpb < ukdb ? ukpb : ukdb;
             int veci = ukpb > ukdb ? ukpb : ukdb;
 
-            if(manji == veci&& manji%2!=0)
+            if(manji == veci && manji%2!=0)
             {
                 Console.WriteLine("Unjeli ste iste brojeve, nema ispisa parnih brojeva");
             }

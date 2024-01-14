@@ -6,4 +6,4 @@
 
 //E03UvjetnaGrananja.Izvedi(); 
 
-E05ForPetlja.Izvedi();
+//E05ForPetlja.Izvedi();
