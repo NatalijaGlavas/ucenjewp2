@@ -5,3 +5,5 @@
 //E02VarijableTipoviPodatakaOperatori.Izvedi();
 
 //E03UvjetnaGrananja.Izvedi(); 
+
+E05ForPetlja.Izvedi();
