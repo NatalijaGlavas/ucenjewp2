@@ -119,6 +119,38 @@ namespace UcenjeCS
 
             //inline if
             Console.WriteLine(i > 10 ? "Osijek" : "Zagreb");
+
+            //višestruko grananje
+            int ocijena = 4;
+
+            switch(ocijena)
+            {
+                case 1:
+                    Console.WriteLine("Nedovoljan");
+                    break;
+                    case 2:
+                    case 3:
+                    Console.WriteLine("Dovoljno ili dobro");
+                    break;
+                    case 4: case 5:
+                    Console.WriteLine("to je ocijena");
+                    break;
+                default:
+                    Console.WriteLine("Nije ocijena");
+                    break;
+            }
+
+            string Ime = "Pero";
+            switch (Ime)
+            {
+                case "Marko":
+                    Console.WriteLine("OK");
+                    break;
+                case "Pero":
+                    Console.WriteLine("Super");
+                    break;
+
+            }
         }
     }
 }
