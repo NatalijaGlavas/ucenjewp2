@@ -87,6 +87,7 @@ namespace UcenjeCS
                 Console.WriteLine();
             }
             // DZ popraviti formatiranje
+            // DZ skužiti kako nasilno prekinuti iz unutarnje petlje vanjsku
 
 
             // Petlja se može preskočiti
@@ -127,20 +128,23 @@ namespace UcenjeCS
             // za unesen broj između 1 i 10
             // ispiši taj broj na kvadrat
 
-            int broj;
+            //int broj;
 
-            for(; ; )
-            {
-                Console.Write("Unesi broj između 1 i 10:");
-                broj = int.Parse(Console.ReadLine());
-                if(broj>=1 && broj <= 10)
-                {
-                    break;
-                }
-                Console.WriteLine("Dragi korisniče, krvi unos");
-            }
+            //for(; ; )
+            //{
+            //    Console.Write("Unesi broj između 1 i 10:");
+            //    broj = int.Parse(Console.ReadLine());
+            //    if(broj>=1 && broj <= 10)
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine("Dragi korisniče, krvi unos");
+            //}
 
-            Console.WriteLine(broj*broj);
+            //Console.WriteLine(broj*broj);
+
+
+           
 
 
 
