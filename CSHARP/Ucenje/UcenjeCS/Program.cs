@@ -10,4 +10,8 @@
 
 //E05ForPetlja.Izvedi();
 
-E06WhilePetlja.Izvedi();
+//E06WhilePetlja.Izvedi();
+
+//E07DoWhilePetlja.Izvedi();
+
+E08ForEachePetlja.Izvedi();
