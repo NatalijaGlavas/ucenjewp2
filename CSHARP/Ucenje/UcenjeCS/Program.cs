@@ -18,6 +18,7 @@
 
 //E09Metode.Izvedi();
 
-Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
+//Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
+V01ZimskoVjezbanje.Izvedi();
 
 
