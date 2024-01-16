@@ -36,6 +36,31 @@ namespace WebAPI.Controllers
             
             return Zbroji(PrviBroj,DrugiBroj)-Zbroji(TreciBroj,CetvrtiBroj);
         }
+        // Kreirati rutu zad3 koja prima ime grada i slovo.
+        // Ruta vraća broj pojavljivanja slova u primljenom imenu grada
+        // koristi metode
+
+        private int Brojac (string Grad, string Slovo)
+        {
+            int Ukupno = 0;
+            foreach (char c in Grad)
+            {
+                
+                if(c == Slovo[0])
+                {
+                  Ukupno ++;
+                }
+                return 2;
+            }
+        }
+
+        [HttpGet]
+        [Route("zad3")]
+
+        public int Zad3(string Grad, string Slovo)
+        {
+            return Brojac(Grad, Slovo);
+        }
 
 
     }
