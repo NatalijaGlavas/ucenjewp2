@@ -19,6 +19,11 @@
 //E09Metode.Izvedi();
 
 //Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
-V01ZimskoVjezbanje.Izvedi();
+
+//V01ZimskoVjezbanje.Izvedi();
+
+//E10ObradaIznimki.Izvedi();
+
+E11Rekurzija.Izvedi();
 
 
