@@ -13,7 +13,7 @@
 
         private static int Zbroj(int v)
         {
-            // uvjet prekida rekurzije
+            // MORA BITI uvjet prekida rekurzije
             if (v == 1)
             {
                 return 1;

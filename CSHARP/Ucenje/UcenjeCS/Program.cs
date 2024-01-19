@@ -24,6 +24,8 @@
 
 //E10ObradaIznimki.Izvedi();
 
-E11Rekurzija.Izvedi();
+//E11Rekurzija.Izvedi();
+
+UcenjeCS.E12KlasaObijekt.Program.Izvedi();
 
 
