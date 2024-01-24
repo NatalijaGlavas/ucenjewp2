@@ -16,5 +16,9 @@ namespace UcenjeCS.E12KlasaObijekt.Edunova
         public float Cijena { get; set; }
         public float Upisnina { get; set; }
         public bool Vereficiran { get; set; }
+
+
+
+
     }
 }

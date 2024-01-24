@@ -28,4 +28,6 @@
 
 //UcenjeCS.E12KlasaObijekt.Program.Izvedi();
 
+UcenjeCS.E13Nasljedivanje.Program.Izvedi();
+
 
