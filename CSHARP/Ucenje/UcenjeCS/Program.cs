@@ -20,7 +20,7 @@
 
 //Console.WriteLine(Z01Metode.CijeliDioZbroja(3.4,5.8));
 
-//V01ZimskoVjezbanje.Izvedi();
+V01ZimskoVjezbanje.Izvedi();
 
 //E10ObradaIznimki.Izvedi();
 
@@ -28,6 +28,6 @@
 
 //UcenjeCS.E12KlasaObijekt.Program.Izvedi();
 
-UcenjeCS.E13Nasljedivanje.Program.Izvedi();
+//UcenjeCS.E13Nasljedivanje.Program.Izvedi();
 
 
