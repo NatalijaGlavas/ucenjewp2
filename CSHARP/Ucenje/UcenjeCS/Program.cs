@@ -22,6 +22,9 @@
 
 //V01ZimskoVjezbanje.Izvedi();
 
+CiklicnaMatrica.Izvedi();
+
+
 //E10ObradaIznimki.Izvedi();
 
 //E11Rekurzija.Izvedi();
@@ -32,7 +35,7 @@
 
 //UcenjeCS.E14Polimorfizam.Program.Izvedi();
 
- new UcenjeCS.E15KonzolnaAplikacija.Program();
+ //new UcenjeCS.E15KonzolnaAplikacija.Program();
 
 
 
