@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UcenjeCS.E12KlasaObijekt.Edunova
 {
-    internal class Grupacs
+    internal class Grupa
     {
         public int Sifra { get; set; }
         public string Naziv { get; set; }
