@@ -37,7 +37,14 @@
 
 //new UcenjeCS.E15KonzolnaAplikacija.Program();
 
-new UcenjeCS.KonzolnaAplikacijaKuharica.Program();
+//new UcenjeCS.KonzolnaAplikacijaKuharica.Program();
+
+//new UcenjeCS.E16Lambda.Program();
+
+//new UcenjeCS.E17Delegati.Program();
+
+new UcenjeCS.E18Ekstenzije.Program();
+
 
 
 
