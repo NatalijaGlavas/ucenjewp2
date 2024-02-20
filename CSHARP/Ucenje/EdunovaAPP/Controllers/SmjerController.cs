@@ -34,12 +34,32 @@ namespace EdunovaAPP.Controllers
         /// 
         /// </remarks>
         /// <returns>Smjerovi u basi</returns>
-        /// <response cod="200">Sve OK</response>
+        /// <response cod="200">Sve OK, ako nema podataka content-length: 0 </response>
         /// <response cod="400">Zahtjev nije valjan</response>
+        /// <response cod="503">Baza na koju se spajam nije dostupna</response>
         [HttpGet]
         public IActionResult Get()
         {
-            return new JsonResult( _context.Smjerovi.ToList());
+            // kontrola ukoliko upit nije valjan
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var smjerovi = _context.Smjerovi.ToList();
+                if(smjerovi==null || smjerovi.Count == 0)
+                {
+                    return new EmptyResult();
+                }
+                return new JsonResult(smjerovi);
+            }catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status503ServiceUnavailable, 
+                    ex.Message);
+            }
+
+           
         }
        
     }
