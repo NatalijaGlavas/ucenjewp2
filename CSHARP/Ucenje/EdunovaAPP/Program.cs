@@ -55,7 +55,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(opcije =>
     {
         opcije.ConfigObject.
-        AdditionalItems.Add("requestSnippetEnabled", true);
+        AdditionalItems.Add("requestSnippetsEnabled", true);
 
     });
 }
