@@ -10,7 +10,7 @@ namespace EdunovaAPP.Models
     {
         /// <summary>
         /// Ovo svojstvo mi služi kao primarni kljuć u bas s 
-        /// generiranjem vrijednosti indetiti(1,1)
+        /// generiranjem vrijednosti indetity(1,1)
         /// </summary>
         [Key]
         public int Sifra { get; set; }

@@ -19,9 +19,7 @@ namespace EdunovaAPP.Models
         /// <summary>
         /// Trajanje u satima
         /// </summary>
-        [Required]
         [Range(30,500,ErrorMessage ="{0} mora biti između {1} i {2}")]
-
         [Column("brojsati")]
         public int? Trajanje { get; set; }
 
