@@ -9,7 +9,7 @@ namespace EdunovaAPP.Models
     public abstract class Entitet
     {
         /// <summary>
-        /// Ovo svojstvo mi služi kao primarni kljuć u bas s 
+        /// Ovo svojstvo mi služi kao primarni kljuć u bazi s 
         /// generiranjem vrijednosti indetity(1,1)
         /// </summary>
         [Key]
